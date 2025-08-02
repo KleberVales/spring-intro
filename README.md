@@ -8,5 +8,6 @@ Abaixo estão os principais conceitos do Spring que são demonstrados e explicad
 Exploramos como configurar os componentes da nossa aplicação diretamente com código Java, usando anotações.
 
 * @Configuration: Marca uma classe como uma fonte de definições de beans para o Spring.
+* @Bean: Anotada em métodos dentro de uma classe @Configuration, indica que o objeto retornado por este método deve ser registrado e gerenciado como um bean pelo Spring Container. Esta é a forma recomendada e moderna de definir beans, oferecendo segurança de tipo e facilidade de refatoração.
 
 
