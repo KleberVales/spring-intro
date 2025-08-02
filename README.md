@@ -4,5 +4,9 @@ Este projeto serve como uma introdução prática aos conceitos fundamentais do 
 ## Tópicos Abordados
 Abaixo estão os principais conceitos do Spring que são demonstrados e explicados neste projeto:
 
-1. Definindo Beans com Java Puro (@Bean)
+1. Definindo Beans com Java Puro (@Bean)\
 Exploramos como configurar os componentes da nossa aplicação diretamente com código Java, usando anotações.
+
+* @Configuration: Marca uma classe como uma fonte de definições de beans para o Spring.
+
+
