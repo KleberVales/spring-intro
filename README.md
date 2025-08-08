@@ -1,0 +1,13 @@
+## Projeto Spring Intro
+Este projeto serve como uma introdução prática aos conceitos fundamentais do Spring Framework utilizando a moderna abordagem de configuração em Java. Ele explora a criação e o gerenciamento de componentes (beans) com o contêiner de Inversão de Controle (IoC) do Spring.
+
+## Tópicos Abordados
+Abaixo estão os principais conceitos do Spring que são demonstrados e explicados neste projeto:
+
+1. Definindo Beans com Java Puro (@Bean)\
+Exploramos como configurar os componentes da nossa aplicação diretamente com código Java, usando anotações.
+
+* @Configuration: Marca uma classe como uma fonte de definições de beans para o Spring.
+* @Bean: Anotada em métodos dentro de uma classe @Configuration, indica que o objeto retornado por este método deve ser registrado e gerenciado como um bean pelo Spring Container. Esta é a forma recomendada e moderna de definir beans, oferecendo segurança de tipo e facilidade de refatoração.
+
+
